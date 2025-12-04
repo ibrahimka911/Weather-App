@@ -22,4 +22,5 @@ exitBtn.addEventListener("click", () => {
 
     sessionStorage.removeItem("currentUser");
 
+
 });
