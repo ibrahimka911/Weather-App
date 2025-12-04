@@ -66,6 +66,7 @@ validator
             };
             sessionStorage.setItem("currentUser", JSON.stringify(currentUser));
         };
-        window.location.href = "./index.html";  
+        window.location.href = "index.html";  
 });
+
 
