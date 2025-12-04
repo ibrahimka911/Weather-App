@@ -22,7 +22,7 @@ btn.addEventListener("click", (e) => {
 
     const APIKey = "b41d659884a1fd42859d9e9d66a4b9d2";
 
-    axios.get(`http://api.openweathermap.org/geo/1.0/direct?q=${cityName}&limit=1&appid=${APIKey}`)
+    axios.get(`https://api.openweathermap.org/geo/1.0/direct?q=${cityName}&limit=1&appid=${APIKey}`)
     .then(res => {
         const lat = res.data[0].lat;
         const lon = res.data[0].lon;
@@ -61,4 +61,5 @@ function displayWeather(data) {
         </div>
     `
     weatherCont.innerHTML = weatherHtml;     
+
 };
