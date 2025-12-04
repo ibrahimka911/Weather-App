@@ -1,0 +1,49 @@
+.dark-back-ground {
+    background-color: #0E172A;
+}
+.light-back-ground {
+    background-color: #82a5f05f;
+}
+.error-msg {
+    display: none; 
+    color: red; 
+    border: 1px solid red; 
+    border-radius: 8px; 
+    padding: 4px;
+}
+.form-size {
+    min-width: 400px;
+    min-height: 500px;
+}
+.nav-height {
+    height: 90px;
+}
+.logo {
+    width: 50px; 
+    height: 50px;
+}
+.nav-btn {
+    width: 40px; 
+    height: 38px; 
+    border-radius: 10px;
+}
+.card-size {
+    min-height: 350px;
+    max-width: 350px;
+}
+.input {
+    height: 40px;
+}
+.weather-btn {
+    height: 40px;  
+    width: 70px; 
+    border: none; 
+    background-color: #0E172A;
+}
+.forecast-container{
+    width: 650px; 
+    min-height: 600px;
+}
+.disNone{
+    display: none;
+}

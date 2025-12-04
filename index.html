@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="vh-100 light-back-ground">
+
+    <nav class="navbar justify-content-center p-3 justify-content-between dark-back-ground nav-height">
+        <a id="exit" href="index.html"><img src="img/Exit.jpg" class="nav-btn"></a>
+        <h1 class="text-light">حالة الطقس</h1>
+        <a href="index.html"><img src="img/logo.webp" class="logo"></a>
+    </nav>
+
+    <div id="displayUser" class="d-flex justify-content-around p-3 text-dark border border-2 border-dark"></div>
+
+    <div class="d-flex justify-content-center align-items-center text-center h-25 m-5">
+        <h1>اختر طريقة الاستعلام المناسبة</h1>
+    </div>
+    
+    <div class="container text-center d-flex align-items-start justify-content-center">
+        <div class="row mb-5">
+
+            <div class="col-12 col-sm-6 col-md-4 mb-4 card-size">
+                <div class="card shadow-sm h-100 text-center rounded-4">
+                    <div class="card-body d-flex flex-column justify-content-between align-items-center text-light p-5 rounded-4 dark-back-ground">
+                        <h3 class="card-title mb-5">اسم المدينة</h3>
+                        <p class="card-text">تمكنك هذه الطريقة من الاستعلام عن حالة الطقس عن طريق إدخال <span class="text-danger">اسم المدينة</span></p>
+                        <a href="cityWeather.html" class="btn bg-primary-subtle">اختيار </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4 mb-4 card-size">
+                <div class="card shadow-sm h-100 text-center rounded-4">
+                    <div class="card-body d-flex flex-column justify-content-between align-items-center text-light p-5 rounded-4 dark-back-ground">
+                        <h4 class="card-title mb-5">الموقع الحالي</h4>
+                        <p class="card-text">تمكنك هذه الطريقة من الاستعلام عن حالة الطقس عن طريق إدخال <span class="text-danger"> اسم المدينة </span> وبذلك يتم الوصول للموقع وعرض بيانات الطقس </p>
+                        <a href="locationWeather.html" class="btn bg-primary-subtle">اختيار </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4 mb-4 card-size">
+                <div class="card shadow-sm h-100 text-center rounded-4">
+                    <div class="card-body d-flex flex-column justify-content-between align-items-center text-light p-5 rounded-4 dark-back-ground">
+                        <h4 class="card-title mb-5">توقعات الايام المقبلة </h4>
+                        <p class="card-text">تمكنك هذه الطريقة من الاستعلام عن توقعات الطقس للايام القادمة عن طريق إدخال<span class="text-danger"> اسم المدينة </span></p>
+                        <a href="forecast.html" class="btn bg-primary-subtle">اختيار </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>            
+    </div>
+
+    <footer class="text-light py-3 mt-5 dark-back-ground">
+        <div class="text-center">
+            <p class="mb-0 text-secondary">جميع الحقوق محفوظة © 2025</p>
+        </div>
+    </footer>
+    <script src="/JS/home.js"></script>
+</body>
+</html>
